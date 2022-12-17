@@ -1,0 +1,48 @@
+<html>
+    <head>
+       <title>My Selfie App</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link href="style.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.min.js" integrity="sha512-dQIiHSl2hr3NWKKLycPndtpbh5iaHLo6MwrXm7F0FM5e+kL2U16oE9uIwPHUl6fQBeCthiEuV/rzP3MiAB8Vfw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js" integrity="sha512-AQMSn1qO6KN85GOfvH6BWJk46LhlvepblftLHzAv1cdIyTWPBKHX+r+NOXVVw6+XQpeW4LJk/GTmoP48FLvblQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+
+</head>
+ 
+<body>
+    <center>
+    <h1>Collage Web app</h1> <hr> <h2 class="note">As soon as the popup appears,please click Allow.After you've spoken a command</h2> <h3 style="font-size: 25px;">Say "take my selfie" for taking your selfies and to make a Collage</h3> <span> <img class="image_istock" src="camera.jpg"/> <img class="image_selfie" src="index.jpg"/> </span> <br>
+        <br>
+        <div class="xyz">
+            <a href="" id="link" download="myselfie.png"></a>
+        <h3>Result</h4>
+        <hr>
+        <br><br>
+        <button class="btn btn-primary" onclick="start()">Start</button>
+        <br><br>
+        <textarea class="form-control" id="textbox" readonly="true"></textarea>
+
+        <br><br>
+        <p>Press the Start button</p>
+        <br><br>
+
+        <label>Your webcam : </label>
+        <br><br>
+        <div id="camera"></div>
+        <br>
+
+        <label>Your selife Will Display Here: </label>
+        <br><br>
+        <div id="result"></div>
+
+    </center>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

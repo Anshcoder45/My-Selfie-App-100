@@ -1,0 +1,65 @@
+body{
+    background-image: url("pexels-tirachard-kumtanom-733853.jpg");
+    background-size: 1500px 600px;
+    background-repeat: no-repeat;
+}
+#start-btn
+{
+width: 40%;
+} 
+#camera
+{
+width:360px;
+height: 250px;
+border:1px solid grey;
+}
+#logo_img
+{
+width: 150px;
+border-radius: 100px;
+}
+#textbox
+{
+width: 300px;
+}
+
+.note{
+    font-size: 20px;
+    color: red;
+}
+.image_istock{
+    height:  300px;
+    margin: 40px;
+}
+.image_selfie{
+    height: 300px;
+    margin: 40px;
+    width: 460px;;
+} 
+img:hover{
+  border-radius: 140px;
+}
+.img_selfie{
+    height: 300px;
+    width: 460px;
+    margin-top: 200px;
+}
+h1{
+    color: blue;
+}
+.xyz{
+    background-color: darksalmon;
+}
+h3{
+    color:blueviolet;
+    font-size: 30px;
+}
+
+h4{
+   color: gold;
+   font-size: 30px;
+}
+#textbox{
+  width: 260px;
+  height: 40px;
+}
